@@ -8,7 +8,12 @@ const AppContainer = styled.div`
   width: 100vw;
   height: 100vh;
 
-  background-color: ${(props) => props.theme.colors.darkBlue};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: ${(props) => props.theme.colors.veryDarkBlue};
 `;
 
 export { StyledH1, AppContainer };
